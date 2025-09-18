@@ -1,0 +1,125 @@
+.header {
+  padding: 36px 120px;
+  background-color: #E4E7FF;
+}
+
+.header__wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 23px;
+  justify-content: space-between;
+  align-items: center;
+  max-height: 130px;
+}
+
+.header__logo {
+  display: flex;
+  max-height: 45px;
+}
+
+.header__logo-img {
+  width: 40px;
+  height: 40px;
+}
+
+.header__logo-title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  color: #00349B;
+}
+
+.navigation__list {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+
+.navigation__list-link {
+  text-decoration: none;
+  color: #00349B;
+  font-size: 24px;
+}
+
+.navigation__list-link:hover {
+  color: #0648cd;
+}
+
+
+.header__right-group {
+  display: flex;
+  align-items: center;
+  gap: 23px; 
+}
+
+.header__language {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 58px;
+  height: 32px;
+  gap: 4px;
+}
+
+.header__language-logo {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
+.header__language-select-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30px;
+  height: 32px;
+}
+
+.header__language-select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: transparent;
+  border: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #00349B;
+  cursor: pointer;
+  outline: none;
+  width: 100%;
+  text-align: center;
+  height: 20px; 
+  line-height: 20px;
+}
+
+.header__language-select-arrow {
+  width: 18px;
+  height: 8px;
+  background-image: url("../logos/VectorOne.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-top: 2px;
+  cursor: pointer;
+}
+
+.header__button {
+  padding: 12px 27px;
+  background-color: #00349B;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.header__button:hover {
+  background-color: #0648cd;
+}
+

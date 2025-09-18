@@ -1,0 +1,13 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+h1, a, button {
+  font-weight: 700;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
