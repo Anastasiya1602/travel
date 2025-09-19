@@ -70,6 +70,7 @@
 
 .offers__special-info {
   padding: 6px 12px;
+  border: none;
   border-radius: 5px;
   background-color: #00349B;
   color: #FFFFFF;
