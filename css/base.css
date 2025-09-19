@@ -11,3 +11,8 @@ h1, a, button {
   margin: 0 auto;
   max-width: 1200px;
 }
+
+button:hover {
+  background-color: #0648cd;
+}
+

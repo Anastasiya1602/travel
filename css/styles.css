@@ -1,5 +1,9 @@
-@import 'reset';
+@import 'reset.css';
 @import 'base.css';
 @import 'font.css';
 @import 'header.css';
 @import 'main.css';
+@import 'offers.css';
+@import 'choose.css';
+@import 'reviews.css';
+@import 'news.css';

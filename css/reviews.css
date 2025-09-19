@@ -1,0 +1,120 @@
+.reviews__wrapper {
+    padding: 60px 0;
+}
+
+.reviews__title {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 700;
+    color: #00349B;
+    margin-bottom: 40px;
+}
+
+.reviews__content {
+    display: flex;
+    overflow-x: auto;
+    gap: 30px;
+    padding: 20px 10px 30px;
+    scrollbar-width: thin;        scrollbar-color: #00349B #f0f0f0;
+    scroll-behavior: smooth;
+    -ms-overflow-style: none; /* IE и Edge */
+    scrollbar-width: none; /* Firefox */
+}
+        
+/* Скрываем scrollbar для Chrome, Safari и Opera */
+.reviews__content::-webkit-scrollbar {
+    display: none;
+}
+        
+.review-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    padding: 27px 76px 45px 76px;
+    border: 1px solid #00349B;
+    border-radius: 20px;
+    max-width: 580px;
+    flex-shrink: 0;
+    /* transition: transform 0.3s ease; */
+}
+
+.review-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 52, 155, 0.1);
+}
+
+.review-card__img {
+    width:105px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.review-card__author {
+    font-size: 16px;
+    font-weight: 700;
+    color: #00349B;
+}
+
+.review-card__text {
+    font-size: 20px;
+    text-align: center;
+    color: #6D6B6B;
+    letter-spacing: 1px;
+    Line-height:100%;
+}
+        
+.review-card__rating {
+    color: #FFD700;
+}
+
+ /* Индикатор прокрутки */
+.scroll-hint {
+    text-align: center;
+    margin-top: 25px;
+    color: #777;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    opacity: 0.8;
+}
+        
+.scroll-hint::before,
+.scroll-hint::after {
+    content: "";
+    height: 1px;
+    width: 40px;
+    background: #ccc;
+}
+
+.reviews__indicators {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 30px;
+}
+        
+.indicator {
+    width: 20px; /* Короткая ширина для неактивных */
+    height: 10px;
+    border-radius: 5px;
+    background: white;
+    border: 1px solid #00349B;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+        
+.indicator.active {
+    width: 30px; /* Длинная ширина для активного */
+    background: #00349B;
+    border-color: #00349B;
+}
+        
+.indicator:hover {
+    background: #7AA7FF;
+    border-color: #7AA7FF;
+}
